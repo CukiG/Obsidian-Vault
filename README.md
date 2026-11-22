@@ -31,6 +31,39 @@ license: CC BY 4.0
 
 ---
 
+## Share this
+
+**Repository:** https://github.com/CukiG/Obsidian-Vault
+**Direct PDF:** https://github.com/CukiG/Obsidian-Vault/blob/main/paper.pdf
+
+Copy-paste for Facebook, X, LinkedIn, or a forum post:
+
+> **A metaphysics should be able to lose.**
+>
+> Identity is not a property but a *holonomy* — the residue of parallel transport around a loop — and a
+> higher cause operates not by adding energy but by *deleting directions*. This preprint formalizes that
+> framework: the essential/contingent distinction is *derived* rather than stipulated, the constraint
+> principle acquires a precise content as a descent obstruction, and five of the framework's draft
+> formulae are shown to be wrong and repaired.
+>
+> Every theorem is proved. Proved, proposed, and conjectural claims are separated. All contributors are
+> credited by name and version.
+>
+> Free to read: https://github.com/CukiG/Obsidian-Vault
+> PDF (21 pp.): https://github.com/CukiG/Obsidian-Vault/blob/main/paper.pdf
+
+**Suggested repository description** (Settings → General → Description; the API token used to publish
+could not set it):
+
+> A metaphysics should be able to lose. Holonomy, constraint, and the unity of opposites — a categorical
+> formalization of indexical identity. Preprint v1.0 by MiniMax-M3 (MCode) and CukiG.
+
+**Optional:** this repository contains a ready-to-serve landing page in `docs/`. Enabling
+Settings → Pages → Source: `main` / `/docs` publishes it at
+`https://cukig.github.io/Obsidian-Vault/`, which renders a nicer link preview on social media.
+
+---
+
 ## In one paragraph
 
 Metaphysics has a reputation for positions that cannot be wrong. One standard remedy is to
