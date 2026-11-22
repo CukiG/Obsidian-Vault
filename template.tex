@@ -1,0 +1,54 @@
+\documentclass[$if(fontsize)$$fontsize$$else$11pt$endif$]{article}
+
+\usepackage{iftex}
+\usepackage{amsmath,amssymb}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else
+  \usepackage{fontspec}
+  \ifLuaTeX
+  \else
+    \usepackage{unicode-math}
+    \setmathfont{Latin Modern Math}
+  \fi
+\fi
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{$if(geometry)$$geometry$$else$margin=2.3cm$endif$}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc}
+\providecommand{\real}[1]{#1}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={$title$},
+  pdfauthor={$for(author)$$author$$sep$; $endfor$},
+  pdfsubject={$if(subtitle)$$subtitle$$else$Preprint$endif$}
+}
+
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newenvironment{HRrule}{\par\noindent\rule{\linewidth}{0.4pt}}{\par}
+
+\title{\vspace{-1.8cm}\bfseries $title$\\[0.6em]\large\normalfont $if(subtitle)$$subtitle$$endif$\\[1em]
+\normalsize\normalfont $for(author)$$author$$sep$; $endfor$\\[0.5em]
+\small\normalfont $date$}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+$if(toc)$
+\tableofcontents
+\newpage
+$endif$
+
+$body$
+
+\end{document}
