@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Holonomy, Constraint, and the Unity of Opposites — A Categorical Formalization of Indexical Identity</title>
+<meta name="description" content="A metaphysics that can lose: indexical identity as holonomy, the via-negativa constraint as a descent obstruction, and five defective draft formulae identified and repaired.">
+<meta property="og:title" content="Holonomy, Constraint, and the Unity of Opposites">
+<meta property="og:description" content="A metaphysics should be able to lose. A categorical formalization of indexical identity, with proofs, corrections, and a clear separation of what is proved from what is conjectural.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://cukig.github.io/Obsidian-Vault/">
+<link rel="canonical" href="https://cukig.github.io/Obsidian-Vault/">
+<style>
+  :root{
+    --ink:#1a1a1a; --muted:#5a5a5a; --rule:#e2e0da; --accent:#7a2e2e; --paper:#fbfaf7; --card:#ffffff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    line-height:1.68; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:46rem;margin:0 auto;padding:3.2rem 1.4rem 5rem}
+  header{border-bottom:1px solid var(--rule);padding-bottom:1.6rem;margin-bottom:2.2rem}
+  .eyebrow{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0 0 1rem}
+  h1{font-size:2.05rem;line-height:1.22;margin:0 0 .55rem;font-weight:600;letter-spacing:-.01em}
+  .sub{font-style:italic;color:var(--muted);margin:0 0 1.3rem;font-size:1.1rem}
+  .byline{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.86rem;color:var(--muted);margin:0}
+  .byline strong{color:var(--ink)}
+  h2{font-size:1.06rem;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+     text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:2.6rem 0 .9rem;font-weight:600}
+  blockquote{margin:0 0 1.6rem;padding:1.15rem 1.35rem;background:var(--card);border-left:3px solid var(--accent);
+    border-radius:0 5px 5px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+  blockquote p:first-child{margin-top:0;font-size:1.03rem}
+  blockquote p:last-child{margin-bottom:0}
+  .lede{font-size:1.03rem}
+  .links{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.5rem 0 0}
+  a.btn{display:inline-block;padding:.62rem 1.15rem;border-radius:5px;text-decoration:none;
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.88rem;font-weight:500;
+    border:1px solid var(--ink);color:var(--ink);background:transparent;transition:.15s}
+  a.btn:hover{background:var(--ink);color:var(--paper)}
+  a.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  a.btn.primary:hover{background:#5f2020;border-color:#5f2020}
+  table{width:100%;border-collapse:collapse;margin:1rem 0 1.6rem;
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.9rem}
+  th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+  th{font-weight:600;color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em}
+  td.status{white-space:nowrap;font-weight:500}
+  .proved{color:#1d6b3f}.proposed{color:#8a6d1f}.open{color:var(--muted)}
+  ol.corr{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.9rem;
+    padding-left:1.2rem;color:var(--muted)}
+  ol.corr li{margin-bottom:.5rem}
+  ol.corr b{color:var(--ink);font-weight:600}
+  footer{margin-top:3.4rem;padding-top:1.4rem;border-top:1px solid var(--rule);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.82rem;color:var(--muted)}
+  footer a{color:var(--accent)}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.88em;
+    background:#f1efe9;padding:.1em .35em;border-radius:3px}
+  .cite{background:var(--card);border:1px solid var(--rule);border-radius:5px;padding:.9rem 1.1rem;
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.8rem;overflow-x:auto;
+    white-space:pre;color:var(--muted);margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Preprint &middot; Version 1.0 &middot; 22 November 2026 &middot; CC BY 4.0</p>
+  <h1>Holonomy, Constraint, and the Unity of Opposites</h1>
+  <p class="sub">A Categorical Formalization of Indexical Identity &mdash; Toward a Defensible Metaphysics of Causation</p>
+  <p class="byline">Written by <strong>MiniMax-M3 (MCode)</strong>, from working notes by <strong>CukiG</strong>, with contributions credited by name and version in &sect;14.</p>
+</header>
+
+<h2>Abstract</h2>
+<blockquote class="lede">
+  <p><b>A metaphysics should be able to lose.</b></p>
+  <p>This paper formalizes a framework in which &ldquo;identity&rdquo; is not a property but a
+  <i>holonomy</i> &mdash; the residue of parallel transport around a loop &mdash; and in which a higher
+  cause operates not by adding energy but by <i>deleting directions</i>. We prove that the
+  framework&rsquo;s central distinction between essential and contingent conditions is derivable
+  rather than stipulated, that its constraint principle has a precise content as a descent
+  obstruction, and that several of its central formulas, as circulated in draft form, were wrong
+  in ways we specify and repair. The result is a framework that metaphysical positions can argue
+  about, disagree with, and &mdash; finally &mdash; falsify.</p>
+</blockquote>
+
+<div class="links">
+  <a class="btn primary" href="https://github.com/CukiG/Obsidian-Vault/blob/main/paper.pdf">Read the PDF (21 pp.)</a>
+  <a class="btn" href="https://github.com/CukiG/Obsidian-Vault/blob/main/paper.md">Read in Markdown</a>
+  <a class="btn" href="https://github.com/CukiG/Obsidian-Vault">Repository</a>
+</div>
+
+<h2>What is proved, and what is not</h2>
+<table>
+  <thead><tr><th>Claim</th><th>Status</th></tr></thead>
+  <tbody>
+    <tr><td>Gauge- and homotopy-invariance of the holonomy class</td><td class="status proved">Theorem (proved)</td></tr>
+    <tr><td>The trace is not a complete conjugacy invariant &mdash; explicit <code>SU(4)</code> counterexample; and the sharp threshold result that it <i>is</i> complete in <code>SU(3)</code></td><td class="status proved">Theorem (proved)</td></tr>
+    <tr><td>Curvature = obstruction to descent of parallel transport to the fundamental groupoid</td><td class="status proved">Theorem (proved)</td></tr>
+    <tr><td>Frobenius integrability as the local obstruction to constraint consistency</td><td class="status proved">Theorem (proved)</td></tr>
+    <tr><td>Impossibility, descent obstruction, and non-additivity of the via-negativa constraint</td><td class="status proved">Theorems (proved)</td></tr>
+    <tr><td>The essential/contingent trichotomy is derived from global versus local sections</td><td class="status proved">Proposition (proved)</td></tr>
+    <tr><td>Coset count versus sector count</td><td class="status proved">Proposition (proved)</td></tr>
+    <tr><td>Three corrections to the dimensional-explosion formulae</td><td class="status proved">Theorem (proved)</td></tr>
+    <tr><td>Constraint-induced Lawvere&ndash;Tierney topology for the modality</td><td class="status proposed">Modeling proposal (not proved)</td></tr>
+    <tr><td>The framework&rsquo;s physical and cosmological claims</td><td class="status open">Conjectural / empirical (not addressed)</td></tr>
+    <tr><td>Whether the formalization captures the <i>intended</i> metaphysical notion</td><td class="status open">Open (philosophical)</td></tr>
+  </tbody>
+</table>
+
+<h2>Five defective formulae, identified and repaired</h2>
+<ol class="corr">
+  <li><b>&ldquo;Curvature = failure of <code>P</code> to preserve composition&rdquo;</b> &mdash; a category error: a functor preserves composition by definition.</li>
+  <li><b><code>I_&gamma; &equiv; Tr(P exp&oline;_&gamma; A)</code></b> &mdash; ill-typed, and the trace is not a complete conjugacy invariant.</li>
+  <li><b>The dimensional-explosion formulae</b> &mdash; the Heaviside step was not negated, the derivative sign was wrong, and <code>dD/d&alpha;</code> is a distribution, not a function.</li>
+  <li><b>&ldquo;<code>|G/H(&alpha;)|</code> counts linearly independent holonomy eigenvalues&rdquo;</b> &mdash; conflates three distinct counting conventions.</li>
+  <li><b>The symbol <code>F</code> denoted four different objects</b> &mdash; making the interval ladder unreadable, and concealing that the ladder is a recursion.</li>
+</ol>
+
+<h2>Citation</h2>
+<pre class="cite">@techreport{hvp2026holonomy,
+  title     = {Holonomy, Constraint, and the Unity of Opposites:
+               A Categorical Formalization of Indexical Identity},
+  author    = {{MiniMax-M3 (MCode)} and {CukiG}},
+  institution = {Independent preprint},
+  year      = {2026},
+  version   = {1.0},
+  url       = {https://github.com/CukiG/Obsidian-Vault},
+  note      = {With contributions credited in section 14 of the paper}
+}</pre>
+
+<footer>
+  Full text, appendix correction log, and a claim-by-claim provenance table are in the
+  <a href="https://github.com/CukiG/Obsidian-Vault">repository</a>.
+  Comments and corrections welcome &mdash; open an issue on the repository.
+  &middot; <a href="https://github.com/CukiG/Obsidian-Vault/blob/main/provenance.md">provenance.md</a>
+</footer>
+
+</div>
+</body>
+</html>
