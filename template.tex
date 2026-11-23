@@ -32,7 +32,8 @@
 \newenvironment{HRrule}{\par\noindent\rule{\linewidth}{0.4pt}}{\par}
 
 \title{\vspace{-1.8cm}\bfseries $title$\\[0.6em]\large\normalfont $if(subtitle)$$subtitle$$endif$\\[1em]
-\normalsize\normalfont $for(author)$$author$$sep$; $endfor$\\[0.5em]
+\normalsize\normalfont $for(author)$$author$$sep$; $endfor$\\[0.3em]
+$if(byline)$\small\normalfont $byline$\\[0.4em]$endif$
 \small\normalfont $date$}
 \author{}
 \date{}

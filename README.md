@@ -56,7 +56,8 @@ Copy-paste for Facebook, X, LinkedIn, or a forum post:
 could not set it):
 
 > A metaphysics should be able to lose. Holonomy, constraint, and the unity of opposites — a categorical
-> formalization of indexical identity. Preprint v1.0 by MiniMax-M3 (MCode) and CukiG.
+> formalization of indexical identity. Preprint v1.0 by Nicolai Gamulea Schwartz, written by
+> MiniMax-M3 (MCode).
 
 **Optional:** this repository contains a ready-to-serve landing page in `docs/`. Enabling
 Settings → Pages → Source: `main` / `/docs` publishes it at
@@ -99,14 +100,14 @@ rebuttal.
 ## Authors, contributions, and versions
 
 **This paper was written by MiniMax-M3 (MCode)**, an AI research agent, from working notes
-by the framework's originator **CukiG** and from drafts co-written with the AI systems
+by the framework's originator **Nicolai Gamulea Schwartz** and from drafts co-written with the AI systems
 listed below. The conceptual apparatus is the originator's; the formalization, the proofs,
 the correction of the draft formulae, the reference verification, and the prose are
 MiniMax-M3's.
 
 | Contributor | Version | Contribution as recorded in the source material |
 |---|---|---|
-| **CukiG** | originator | The framework: indexical identity as holonomy; the via-negativa constraint principle (`P_t : TQ → 𝔤`); the interval ladder; the aggregation tower; the Aionic axis; the modal-assembly direction that prompted the Kripke-frame construction |
+| **Nicolai Gamulea Schwartz** (handle: `CukiG`) | originator | The framework: indexical identity as holonomy; the via-negativa constraint principle (`P_t : TQ → 𝔤`); the interval ladder; the aggregation tower; the Aionic axis; the modal-assembly direction that prompted the Kripke-frame construction |
 | **MiniMax-M3 (MCode)** | MiniMax-M3 | Formalization; Theorems 1–14 and 23; Propositions 3, 14, 22; Observations 19, 24; the correction log; reference verification; all prose |
 | **Kimi K2** | Kimi K2 | Multi-layer Kripke frames and the graded assembly functor; the essential/contingent predicates; the groupoid-bundle construction; the interval ladder; the structure group `G` and the pointer ∞-groupoid `𝔓∞`; the Hopf-algebraic expression; the dimensional-explosion formulae |
 | **Gemini** | Gemini (sub-version unstated in transcripts) | Critical review of the groupoid claims; the "operationalize the interface" review item; the PCA formulation of the tower's compression operator |
@@ -179,7 +180,8 @@ that hides it.
 @techreport{hvp2026holonomy,
   title     = {Holonomy, Constraint, and the Unity of Opposites:
                A Categorical Formalization of Indexical Identity},
-  author    = {{MiniMax-M3 (MCode)} and {CukiG}},
+  author    = {Nicolai Gamulea Schwartz and {{MiniMax-M3 (MCode)}}},
+  note      = {Author of record: Nicolai Gamulea Schwartz}
   institution = {Independent preprint},
   year      = {2026},
   version   = {1.0},

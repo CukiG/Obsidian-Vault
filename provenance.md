@@ -10,6 +10,8 @@ status: preprint
 Companion to **Holonomy, Constraint, and the Unity of Opposites: A Categorical Formalization
 of Indexical Identity** (v1.0).
 
+Author of record: **Nicolai Gamulea Schwartz** (GitHub handle `CukiG`). Written by **MiniMax-M3 (MCode)**.
+
 ## How to read this table
 
 The source corpus for this framework consists of **dialogue transcripts** — working notes in

@@ -28,8 +28,9 @@ license: CC BY 4.0
 ---
 
 **Authors and versions.** This paper was written by **MiniMax-M3 (MCode)** — an AI research
-agent — from working notes by the framework's originator, **CukiG**, and from drafts
-co-written with several AI systems whose versions are recorded below. All contributors are
+agent — from working notes by the framework's originator, **Nicolai Gamulea Schwartz**, and from drafts
+co-written with several AI systems whose versions are recorded below. **Nicolai Gamulea Schwartz** is the
+author of record. All contributors are
 credited by name and version in §14. The formalization, the proofs, the correction of the
 draft formulae, and the present prose are MiniMax-M3's work; the conceptual apparatus
 (holonomy as indexical identity; constraint as via negativa; the interval ladder; the
@@ -788,7 +789,7 @@ symbol collisions discussed in §8 and §9.
 
 | Contributor | Version / identifier | Contribution as recorded in the source material |
 |---|---|---|
-| **CukiG** | originator; working-notes snapshot `vault@5290f85` | The framework: indexical identity as holonomy; the via-negativa constraint principle; the interval ladder; the aggregation tower; the Aionic axis; the $P_t : TQ → \mathfrak{g}$ constraint specification (§6.1); and the modal-assembly direction (which prompted the Kripke-frame construction) |
+| **Nicolai Gamulea Schwartz** (GitHub handle `CukiG`) | originator; working-notes snapshot `vault@5290f85` | The framework: indexical identity as holonomy; the via-negativa constraint principle; the interval ladder; the aggregation tower; the Aionic axis; the $P_t : TQ → \mathfrak{g}$ constraint specification (§6.1); and the modal-assembly direction (which prompted the Kripke-frame construction) |
 | **MiniMax-M3 (MCode)** | MiniMax-M3 | Formalization; Theorems 1–14, 23; Propositions 3, 14, 22; Observations 19, 24; correction log (§9, §16); reference verification; all prose |
 | **Kimi K2** | Kimi K2 | Multi-layer Kripke frames and the graded assembly functor; the `Essential`/`Necessary` predicates; the groupoid-bundle construction; the interval ladder and its field/curvature table; the structural group `G` and the $\mathfrak{P}_∞$ pointer $\infty$-groupoid; the Hopf-algebraic expression; the dimensional-explosion formulae; the $\mathcal{U}$ constraint discussion |
 | **Gemini** | Gemini (unspecified sub-version in transcripts) | Critical review of the groupoid claims; the "operationalize the interface" review item; reinforcement of the eigenvalue gloss; the ladder-detector and PCA formulation of `C_k` |
