@@ -91,6 +91,7 @@ rebuttal.
 | **[paper.md](paper.md)** | The full paper. 18 sections: preliminaries for non-specialists, results with proofs, relations to literature, conclusions for metaphysicians, appendices, references. |
 | **[paper.pdf](paper.pdf)** | Rendered PDF, for citation and offline reading. |
 | **[template.tex](template.tex)** | The LaTeX/pandoc template used to build the PDF, for reproducibility. |
+| **[reviews/](reviews/)** | **Open peer-review record.** Four independent adversarial referees' full reports, plus the consolidated response and revision plan. Read it before citing this preprint. |
 | **[provenance.md](provenance.md)** | Claim-by-claim attribution table: which claim is the originator's, which is a model's, and which are mathematical statements proved here. |
 
 ---
@@ -123,6 +124,33 @@ theorem in the paper is stated with a proof that can be checked without access t
 source material, and the labels distinguishing proved from conjectural from empirical are
 applied consistently, including where they are unflattering to the framework. See
 [`provenance.md`](provenance.md).
+
+---
+
+## Peer review (open record)
+
+This preprint was put through **four independent adversarial referees** — in category theory
+and sheaf theory, in differential geometry and holonomy, in philosophy of science and formal
+logic, and a line-by-line proof checker. Their full reports are published in
+[`reviews/`](reviews/), together with a consolidated
+[Response to Referees and Revision Plan for v1.1](reviews/RESPONSE-TO-REFEREES-v1.1-PLAN.md).
+
+**The verdict was unanimous: major revision.** The referees found that three claims in the
+v1.0 abstract were false or unsupported — that the essential/contingent distinction is
+*derived* rather than *stipulated*, that *every theorem is stated with a proof*, and that the
+framework can be *falsified* — and that four numbered results had no proof at all while the
+status table certified them as proved.
+
+What they did **not** attack: the entire computable core. The SU(4) counterexample, both
+characteristic polynomials, both traces, the SU(3) completeness threshold, the group-algebra
+index and the derivative sign analysis were all independently recomputed and reproduce
+exactly as printed.
+
+The v1.1 revision withdraws the three claims, repairs the unproved results, adds the
+nineteen hypotheses that the proofs were silently using, and concedes the prior art the
+paper was failing to cite. That history is published here rather than quietly fixed,
+because a preprint that survives its own review by showing its work is worth more than one
+that hides it.
 
 ---
 
