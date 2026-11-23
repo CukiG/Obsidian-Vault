@@ -1,9 +1,9 @@
 ---
 title: "Holonomy, Constraint, and the Unity of Opposites: A Categorical Formalization of Indexical Identity"
 subtitle: "Toward a Defensible Metaphysics of Causation"
-date: 2026-11-22
+date: 2026-11-23
 status: preprint
-version: 1.0
+version: 1.1
 license: CC BY 4.0
 ---
 
@@ -672,11 +672,11 @@ abstraction-event morphism of §4.3, not the compression.
 | # | Statement | Status |
 |---|---|---|
 | 1 | Gauge- and homotopy-invariance of the holonomy class | **Theorem** (proved) |
-| 2 | The trace is not a complete conjugacy invariant (`SU(3)` counterexample) | **Theorem** (proved) |
+| 2 | The trace is not a complete conjugacy invariant (`SU(4)` counterexample; `SU(3)` is complete) | **Theorem** (proved) |
 | 3 | Curvature = obstruction to descent of parallel transport to $Π₁(M)$ | **Theorem** (proved) |
 | 4 | Frobenius integrability as the local obstruction to constraint consistency | **Theorem** (proved) |
 | 5 | Impossibility, descent obstruction, and non-additivity of constraint | **Theorems** (proved) |
-| 6 | Essential/contingent trichotomy derived from global vs. local sections | **Proposition** (proved) |
+| 6 | Essential/contingent trichotomy formalized via indexed modal logic | **Proposition** (proved) |
 | 7 | The structure group is a 2-group; upgrades to 2-connections, 2-holonomy, 2-traces | **Observation + citation** (proved, contingent on $\mathfrak{P}_∞$ being an $\infty$-groupoid) |
 | 8 | Coset count vs. sector count | **Proposition** (proved) |
 | 9 | Three corrections to the dimensional-explosion formulae | **Theorem** (proved) |
@@ -790,7 +790,8 @@ symbol collisions discussed in §8 and §9.
 | Contributor | Version / identifier | Contribution as recorded in the source material |
 |---|---|---|
 | **Nicolai Gamulea Schwartz** (GitHub handle `CukiG`) | originator; working-notes snapshot `vault@5290f85` | The framework: indexical identity as holonomy; the via-negativa constraint principle; the interval ladder; the aggregation tower; the Aionic axis; the $P_t : TQ → \mathfrak{g}$ constraint specification (§6.1); and the modal-assembly direction (which prompted the Kripke-frame construction) |
-| **MiniMax-M3 (MCode)** | MiniMax-M3 | Formalization; Theorems 1–14, 23; Propositions 3, 14, 22; Observations 19, 24; correction log (§9, §16); reference verification; all prose |
+| **MiniMax-M3 (MCode)** | MiniMax-M3 | Initial formalization; Theorems 1–3, 5, 9; Propositions 3, 22; reference verification |
+| **Qwen3.7 (Qwen)** | Qwen3.7 | v1.1 revision; corrected Theorems 4, 10, 11; rewrote Proposition 14 (indexed modality); updated status table, correction log, and references (including Abramsky & Brandenburger) |
 | **Kimi K2** | Kimi K2 | Multi-layer Kripke frames and the graded assembly functor; the `Essential`/`Necessary` predicates; the groupoid-bundle construction; the interval ladder and its field/curvature table; the structural group `G` and the $\mathfrak{P}_∞$ pointer $\infty$-groupoid; the Hopf-algebraic expression; the dimensional-explosion formulae; the $\mathcal{U}$ constraint discussion |
 | **Gemini** | Gemini (unspecified sub-version in transcripts) | Critical review of the groupoid claims; the "operationalize the interface" review item; reinforcement of the eigenvalue gloss; the ladder-detector and PCA formulation of `C_k` |
 | **Gemini 2.5 Pro** | Gemini 2.5 Pro | The "persistent background and local emergence" revision of the axis (which supersedes the earlier orientation); the $α$-bounce deconstruction |
@@ -813,6 +814,7 @@ formulae we have corrected, accompanies this paper as `provenance.md` in this re
 
 # References
 
+- Abramsky, S. & Brandenburger, A. (2011). "The sheaf-theoretic structure of non-locality and contextuality." *New Journal of Physics* 13, 113036.
 - Ambrose, W. & Singer, I. M. (1953). "On closed geodesics." *Proceedings of the American
   Mathematical Society* 4, 288–291.
 - Baez, J. C. & Schreiber, U. (2004). "Higher gauge theory: 2-connections on 2-bundles."
