@@ -218,9 +218,9 @@ well-formed if $\mathcal{I}_γ$ is taken to be the trace.
 $$A = \mathrm{diag}\bigl(e^{i\pi/3},\, e^{-i\pi/3},\, 1,\, 1\bigr), \qquad
 B = \mathrm{diag}\bigl(e^{i\theta},\, e^{-i\theta},\, e^{i\theta},\, e^{-i\theta}\bigr).$$
 
-Both lie in `SU(4)`: their entries are unimodular, and `det A = 1` while
-`det B = e^{2i\theta}e^{-2i\theta} = 1`. Both have trace three:
-`tr A = 2\cos(\pi/3) + 2 = 3` and `tr B = 4\cos\theta = 3`. They are not conjugate,
+Both lie in `SU(4)`: their entries are unimodular, and $\det A = 1$ while
+$\det B = e^{2i\theta}e^{-2i\theta} = 1$. Both have trace three:
+$\operatorname{tr} A = 2\cos(\pi/3) + 2 = 3$ and $\operatorname{tr} B = 4\cos\theta = 3$. They are not conjugate,
 because their characteristic polynomials differ:
 
 $$\chi_A(t) = (t^2 - t + 1)(t-1)^2 = t^4 - 3t^3 + 4t^2 - 3t + 1,$$
